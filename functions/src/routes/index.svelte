@@ -1,5 +1,5 @@
 <style>
-	h1, figure, p {
+	h1, figure {
 		text-align: center;
 		margin: 0 auto;
 	}
@@ -16,13 +16,14 @@
 	}
 
 	img {
-		width: 100%;
 		max-width: 400px;
 		margin: 0 0 1em 0;
 	}
 
-	p {
+	h4 {
 		margin: 1em auto;
+		text-align: center;
+		font-size: 2em;
 	}
 
 	@media (min-width: 480px) {
@@ -33,14 +34,14 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Retro Racks</title>
 </svelte:head>
 
 <h1>Great success!</h1>
 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
+	<img alt='Success' src='successkid.jpg'>
+	<figcaption></figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<h4><strong>Retroracks.com Website & Customer Portal Coming Soon...</strong></h4>
